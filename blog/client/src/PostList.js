@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import CommentCreate from "./CommentCreate";
@@ -7,7 +8,8 @@ export default () => {
   const [posts, setPosts] = useState("");
 
   const fetchPosts = async () => {
-    const response = await axios.get("http://localhost:4000/posts");
+    const response = await axios.get("http://localhost:4002/posts"); // getting data from query service
+    // console.log({ response });
     setPosts(response.data);
   };
 
@@ -24,7 +26,7 @@ export default () => {
       >
         <div className="card-body">
           <h3>{post.title}</h3>
-          <CommentList postId={post.id} />
+          <CommentList comments={post.comments} />
           <CommentCreate postId={post.id} />
         </div>
       </div>

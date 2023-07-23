@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import axios from "axios";
 import React, { useState } from "react";
 
@@ -6,8 +7,8 @@ export default ({ postId }) => {
 
   const onSubmit = async (e) => {
     e.preventDefault();
-    await axios.post(`http://localhost:5000/posts/${postId}/comments`, {
-      content,
+    await axios.post(`http://localhost:4001/posts/${postId}/comments`, {
+      content
     });
     setContent("");
   };
