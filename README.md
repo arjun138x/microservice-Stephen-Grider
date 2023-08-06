@@ -62,5 +62,5 @@
 ### Oct 08 - 9hr
 
 24. [Appendix A] - Basics of Docker (3hr 3 min)
-25. [Appendix B] - Basics of Typescript (5hr 42 min)
+25. [Appendix B] - Basics of Typescript (5hr 42 min) ==> COMPLETED
 26. Bonus! (1min )
