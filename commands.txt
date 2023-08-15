@@ -2,3 +2,25 @@
 
 // for kill the port
 npx kill-port 4005
+
+
+
+DOCKER
+==================
+  > for running services with name we need to give the tag to the build.
+    docker build -t blog/post .
+
+  > create and start a container based on the provided image id or tag
+    docker run [image id or image tag]
+
+  > create and start a container, but also override the default command
+    docker run -it [image id or image tag] [cmd]
+
+  > print out information about all of the running containers
+    docker ps 
+
+  > execute the given command in a running container 
+    docker execute -it [container id] [cmd]
+  
+  > print out logs from the given container
+    docker logs [container id] 
