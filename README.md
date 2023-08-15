@@ -6,7 +6,7 @@
 
 ### July 09 - 4hr
 
-2. A Mini-Microservices App (3hr 35 min)
+2. A Mini-Microservices App (3hr 35 min) ==> COMPLETED
 3. Running Services with Docker (30 min)
 
 ### July 16 - 4.5hr
