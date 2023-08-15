@@ -4,10 +4,10 @@
 
 1. Fundamental Ideas Around Microservices (46 min)
 
-### July 09 - 4hr
+### July 09 - 4hr ==> COMPLETED
 
 2. A Mini-Microservices App (3hr 35 min) ==> COMPLETED
-3. Running Services with Docker (30 min)
+3. Running Services with Docker (30 min) ==> COMPLETED
 
 ### July 16 - 4.5hr
 
