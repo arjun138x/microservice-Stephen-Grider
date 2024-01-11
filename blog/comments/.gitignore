@@ -3,9 +3,6 @@
 # Dependency directories
 node_modules/
 
-# local development
-00.js
-py.py
 
 # dotenv environment variable files
 # .env
