@@ -1,0 +1,17 @@
+{
+  "name": "micro-fes-beginner-to-expert",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pkg:install": "cd client && npm i && cd ../comments && npm i && cd ../event-bus && npm i &&  cd ../moderation && npm i && cd ../posts && npm i && cd ../query && npm i",
+    "start": "concurrently \"cd client; npm run start\" \"cd comments; npm run start\"  \"cd event-bus; npm run start\"    \"cd moderation; npm run start\"  \"cd posts; npm run start\" \"cd query; npm run start\"",
+    "dev": "concurrently \"cd client; npm run start\" \"cd comments; npm run dev\"  \"cd event-bus; npm run dev\"    \"cd moderation; npm run dev\"  \"cd posts; npm run dev\" \"cd query; npm run dev\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.1"
+  }
+}
