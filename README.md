@@ -9,7 +9,7 @@
 2. A Mini-Microservices App (3hr 35 min) ==> COMPLETED
 3. Running Services with Docker (30 min) ==> COMPLETED
 
-### July 16 - 4.5hr
+### July 16 - 4.5hr ==> COMPLETED
 
 4. Orchestrating Collections of Services with Kubernetes (3hr 24 min)
 5. Architecture of Multi-Service Apps (1hr 6 min)
