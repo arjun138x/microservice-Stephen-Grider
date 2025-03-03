@@ -1,0 +1,3 @@
+- build the image using docker
+- run docker image using k8s
+- skafflod is like a nodemon

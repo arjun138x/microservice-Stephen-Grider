@@ -24,3 +24,15 @@ DOCKER
   
   > print out logs from the given container
     docker logs [container id] 
+
+
+
+K8S
+==================
+  - Check if the Pod is Running
+    kubectl get pods
+  - TO check logs
+    kubectl logs <pod-name>
+  - Port Forwarding - access application on port
+    kubectl port-forward svc/auth-srv 4000:4000
+

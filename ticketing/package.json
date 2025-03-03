@@ -1,0 +1,17 @@
+{
+  "name": "ticketing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pkg:install": "cd auth && npm i && cd ../order && npm i ",
+    "docker-build": "cd auth && docker build -t ticketing/auth .",
+    "start": "concurrently \"cd client; npm run start\" \"cd order; npm run start\"  \"cd event-bus; npm run start\"   "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
